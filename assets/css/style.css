@@ -161,10 +161,20 @@ section .overlay i{
   font-size: 2.5rem;
 }
 
-/*aside*/
+/*aside*/ 
+
+aside{
+  flex-direction: column;
+}
 
 aside .overflow{
-  
+  height: 30vh;
+  overflow-y: auto;
+}
+
+aside .footer-container{
+  position: fixed;
+  bottom: 84px;
 }
 
 
