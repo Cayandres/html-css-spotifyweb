@@ -36,6 +36,10 @@ h2{
   list-style: none;
 }
 
+.alg-center{
+  align-items: center;
+}
+
 .margin-top-10{
   margin-top: 10px;
 }
@@ -74,14 +78,6 @@ main{
   z-index: 99;
 }
 
-aside{
-  height: 100%;
-  width: 230px;
-  padding: 10px;
-  flex-shrink: 0;
-  background-color: black;
-  color: white;
-}
 
 .content{
   width: 100%;
@@ -127,7 +123,7 @@ aside{
 
 
 .button-play{
- position: relative;
+  position: relative;
 }
 
 .square{
@@ -153,8 +149,8 @@ section .overlay{
 }
 
 section:hover .overlay{
- display: flex; 
-
+  display: flex; 
+  
 }
 
 section .overlay i{
@@ -164,19 +160,70 @@ section .overlay i{
 /*aside*/ 
 
 aside{
+  height: 100%;
+  width: 230px;
+  padding: 15px 0 0 25px;
+  flex-shrink: 0;
+  background-color: black;
+  color: white;
+}
+
+aside{
   flex-direction: column;
 }
 
 aside .overflow{
-  height: 30vh;
+  height: 45vh;
   overflow-y: auto;
 }
 
 aside .footer-container{
-  position: fixed;
-  bottom: 84px;
+  background-color: black;
 }
 
+#logo-spotify{
+  width: 140px;
+  padding-bottom: 10px;
+}
+
+aside ul li{
+  padding-top: 7px;
+}
+
+aside ul li a{
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+aside ul li img{
+  width: 25px;
+}
+
+aside h3{
+  margin: 15px 0 10px 0;
+}
+
+aside .fa-square-plus{
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+aside .overflow ul{
+  line-height: 25px;
+}
+
+aside hr{
+  width: 180px;
+}
+
+aside .footer-container{
+  line-height: 35px;
+}
+
+aside .footer-container i{
+  padding-right: 10px;
+}
 /* player bar */
 
 .player-footer{
@@ -184,5 +231,7 @@ aside .footer-container{
   align-items: center;
   padding: 0px 10px;
 }
+
+
 
 
