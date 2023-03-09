@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Spotify</title>
 </head>
-<body>
+<body> 
   <div class="main-wrapper">
 
     <div class="cta pr-flex">
@@ -18,8 +18,25 @@
     <main class="">
 
       <!-- barra laterale -->
+      <aside class="tiny-aside ">
+        <div>
+          <img src="assets/img/logo-small.svg" alt="">
+          <ul class="no-point pr-flex">
+            <li><a href=""><img src="assets/img/home.svg" alt=""></a> </li>
+            <li><a href=""><img src="assets/img/search.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/img/libreria.svg" alt=""></a> </li>
+          </ul>
 
-      <aside class="pr-flex">
+        </div>
+
+        <div class="dowload-id-bottom pr-flex"> 
+          <i class="fa-regular fa-circle-down"></i>
+          <i class="fa-regular fa-circle-user"></i>          
+        </div>
+
+      </aside>
+
+      <aside class="pr-flex big-aside">
         <div>
           <a  href="#"><img id="logo-spotify" src="assets/img/logo.svg" alt=""></a>
           <ul class="no-point icon-small">
@@ -34,7 +51,7 @@
           <span  >Crea playlist</span>
         </div>
         <div class="overflow">
-          <ul class="no-point "> 
+          <ul class="no-point gray-bold-normal"> 
             <li>Nome playlist</li>
             <li>Nome playlist</li>
             <li>Nome playlist</li>
@@ -56,19 +73,21 @@
       <div class="content">
         <div class="genre-menu">
           <ul class="genre-menu pr-flex no-point pr-wrap">
-            <li>IN EVIDENZA</li>
-            <li>PODCAST</li>
-            <li>CLASSIFICHE</li>
-            <li>GENERI E MOOD</li>
-            <li>NUOVE USCITE</li>
-            <li>SCOPRI</li>
+            <li class="active">IN EVIDENZA
+              <div class="line-green"></div>
+            </li>
+            <li class="active">PODCAST</li>
+            <li class="active">CLASSIFICHE</li>
+            <li class="active">GENERI E MOOD</li>
+            <li class="active">NUOVE USCITE</li>
+            <li class="active">SCOPRI</li>
           </ul>
         </div>
         
         <!-- prima riga  -->
-        <div class="container">
+        <div class="container ">
           <h2>Recently played</h2>
-          <div class="square-container pr-flex">
+          <div class="pr-flex pr-wrap">
 
             <section class="square">
               <div class="button-play"> 
@@ -78,62 +97,62 @@
                 </div>
               </div>
               <h3 class="margin-top-10">Heavy Metal</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <span class="light-gray margin-top-10 gray-bold"> Subtitle</span>
             </section>
 
             <section class="square">
               <div class="button-play"> 
-                <img src="assets/img/metal_lifting.jpg" alt="">
+                <img src="assets/img/stranger.jpeg" alt="stranger Things">
                 <div class="overlay">
                   <i class="fa-sharp fa-solid fa-play"></i>
                 </div>
               </div>
-              <h3 class="margin-top-10">Heavy Metal</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <h3 class="margin-top-10">Stranger Things, Vol.1(a Netflix Soundtrack)</h3>
+              <span class="light-gray margin-top-10 gray-bold">Kyle Dixon & Michael Stein</span>
             </section>
 
             <section class="square">
               <div class="button-play"> 
-                <img src="assets/img/metal_lifting.jpg" alt="">
+                <img src="assets/img/aquietplace.jpeg" alt="A quiet place">
                 <div class="overlay">
                   <i class="fa-sharp fa-solid fa-play"></i>
                 </div>
               </div>
-              <h3 class="margin-top-10">Heavy Metal</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <h3 class="margin-top-10">A quiet place</h3>
+              <span class="light-gray margin-top-10 gray-bold"> Subtitle</span>
             </section>
 
             <section class="square">
               <div class="button-play"> 
-                <img src="assets/img/metal_lifting.jpg" alt="">
+                <img src="assets/img/split.jpeg" alt="Split">
                 <div class="overlay">
                   <i class="fa-sharp fa-solid fa-play"></i>
                 </div>
               </div>
-              <h3 class="margin-top-10">Heavy Metal</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <h3 class="margin-top-10">Split</h3>
+              <span class="light-gray margin-top-10 gray-bold"> Subtitle</span>
             </section>
 
             <section class="square">
               <div class="button-play"> 
-                <img src="assets/img/metal_lifting.jpg" alt="">
+                <img src="assets/img/cure.jpeg" alt="cure">
                 <div class="overlay">
                   <i class="fa-sharp fa-solid fa-play"></i>
                 </div>
               </div>
-              <h3 class="margin-top-10">Heavy Metal</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <h3 class="margin-top-10">A cure for wellness</h3>
+              <span class="light-gray margin-top-10 gray-bold"> Subtitle</span>
             </section>
 
             <section class="square">
               <div class="button-play"> 
-                <img src="assets/img/metal_lifting.jpg" alt="">
+                <img src="assets/img/sinister.jpeg" alt="Sinister">
                 <div class="overlay">
                   <i class="fa-sharp fa-solid fa-play"></i>
                 </div>
               </div>
-              <h3 class="margin-top-10">Heavy Metal</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <h3 class="margin-top-10">Sinister</h3>
+              <span class="light-gray margin-top-10 gray-bold"> Subtitle</span>
             </section>
           </div>
         </div>
@@ -141,29 +160,28 @@
         <!-- seconda riga -->
         
         <div class="container">
-          <h2>Recently played</h2>
+          <h2>Creato per Andres Cayambe</h2>
+          <span class="margin-top-10 gray-bold">Più ascolti, più accurati saranno i suggerimenti </span>
           <div class="square-container pr-flex">
             <section class="square">
               <div class="button-play"> 
-                <img src="assets/img/metal_lifting.jpg" alt="">
+                <img src="assets/img/radar.jpeg" alt="Release Radar">
                 <div class="overlay">
                   <i class="fa-sharp fa-solid fa-play"></i>
                 </div>
               </div>
-              <h3 class="margin-top-10">Heavy Metal</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <h3 class="margin-top-10">Release Radar</h3>
             </section>
             
             
             <section class="square">
               <div class="button-play"> 
-                <img src="assets/img/metal_lifting.jpg" alt="">
+                <img src="assets/img/mixdaily.jpeg" alt="">
                 <div class="overlay">
                   <i class="fa-sharp fa-solid fa-play"></i>
                 </div>
               </div>
-              <h3 class="margin-top-10">Stranger Things, Vol.1(a Netflix original Soundtrack)</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <h3 class="margin-top-10">Daily Mix 3</h3>
             </section>   
           </div>                    
         </div>
@@ -171,29 +189,30 @@
         <!-- terza riga -->
 
         <div class="container">
-          <h2>Recently played</h2>
+          <h2>Artisti più popolari</h2>
+          <span class="margin-top-10 gray-bold">Più ascolti, più accurati saranno i suggerimenti </span>
           <div class="square-container pr-flex">
             <section class="square">
               <div class="button-play circle"> 
-                <img src="assets/img/metal_lifting.jpg" alt="">
+                <img src="assets/img/youg.jpeg" alt="">
                 <div class="overlay">
                   <i class="fa-sharp fa-solid fa-play"></i>
                 </div>
               </div>
-              <h3 class="margin-top-10">Heavy Metal</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <h3 class="margin-top-10">Lana del Rey</h3>
+              <span class="light-gray margin-top-10 gray-bold"> Young</span>
             </section>
             
             
             <section class="square">
               <div class="button-play circle"> 
-                <img src="assets/img/metal_lifting.jpg" alt="">
+                <img src="assets/img/einaudi.jpeg" alt="">
                 <div class="overlay">
                   <i class="fa-sharp fa-solid fa-play"></i>
                 </div>
               </div>
-              <h3 class="margin-top-10">Stranger Things, Vol.1(a Netflix original Soundtrack)</h3>
-              <span class="light-gray margin-top-10"> Subtitle</span>
+              <h3 class="margin-top-10">Ludovico Einaudi</h3>
+              <span class="light-gray margin-top-10 gray-bold">Nuvole bianche</span>
             </section>   
           </div>                    
         </div>
@@ -210,9 +229,12 @@
           <h5>Sinister</h5>
           <span>Furios</span>
         </div>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-regular fa-folder"></i>
+        <div class="like pr-flex">
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-folder"></i>
+        </div>
       </div>
+
       <div class="container-player">
         <div class="buttons footer-center-up pr-flex">
           <i class="fa-solid fa-shuffle"></i>
@@ -224,7 +246,9 @@
         <div class="footer-center-down pr-flex">
           <span>0.25</span>
           <div class="time-line-song">
-          
+            <div class="time-line-song-two pr-flex">
+              <i class="fa-solid fa-circle"></i>
+            </div>
           </div>
           <span>4.35</span>
         </div>
@@ -233,7 +257,11 @@
         <i class="fa-solid fa-list"></i>
         <i class="fa-solid fa-display"></i>
         <i class="fa-solid fa-volume-high"></i>
-        <div class="time-line-song"></div>
+        <div class="time-line-song">
+          <div class="time-line-song-two pr-flex">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+        </div>
 
       </div>
 
