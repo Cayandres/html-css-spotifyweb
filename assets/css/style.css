@@ -249,6 +249,7 @@ aside hr{
 
 aside .footer-container{
   line-height: 35px;
+  margin: auto 0;
 }
 
 aside .footer-container i{
@@ -424,8 +425,7 @@ display: block;
   .player-footer .footer-left div i{
     padding:0;
   }
-
-
+  
   .cta{
   width: calc(100% - 70px);
 
